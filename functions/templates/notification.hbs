@@ -1,0 +1,13 @@
+<p>Olá, estamos enviando esse e-mail para lhe informar que o aluno
+  {{studentId}}
+  enviou os seguintes arquivos para análise:</p>
+<ul>
+  {{#each files as |item|}}
+    <li><a href="{{item.url}}">{{item.type}}</a></li>
+  {{/each}}
+</ul>
+
+{{! TODO: Update with production link }}
+Clique
+<a href="https://google.com">aqui</a>
+para fazer acompanhamento.
